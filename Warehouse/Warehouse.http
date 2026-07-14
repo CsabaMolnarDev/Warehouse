@@ -1,6 +1,11 @@
-@Warehouse_HostAddress = http://localhost:5185
+@Warehouse_HostAddress = https://localhost:7272
 
-GET {{Warehouse_HostAddress}}/weatherforecast/
+### 1. GET ALL CATEGORIES
+GET {{Warehouse_HostAddress}}/api/category
 Accept: application/json
 
 ###
+
+### 2. GET SINGLE CATEGORY 
+GET {{Warehouse_HostAddress}}/api/category/1
+Accept: application/json
