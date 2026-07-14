@@ -1,10 +1,13 @@
-﻿namespace Warehouse.Entities
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace Warehouse.Data.Entities
 {
     public class Product
     {
         public int Id { get; set; }
         public required string Name { get; set; }
         public required string SKU { get; set; } // Stock Keeping Unit (Unique identifier)
+        [Column(TypeName = "decimal(18, 2)")] // Ensures proper precision and scale for currency values
         public decimal Price { get; set; }
         public int Quantity { get; set; } // Current stock level
 
