@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Warehouse.Data.Entities;
+using Warehouse.Entities;
 
 namespace Warehouse.Data
 {

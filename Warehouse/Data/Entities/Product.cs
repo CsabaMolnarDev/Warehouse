@@ -1,4 +1,7 @@
-﻿namespace Warehouse.Entities
+﻿using System.ComponentModel.DataAnnotations.Schema;
+using Warehouse.Data.Entities;
+
+namespace Warehouse.Entities
 {
     public class Product
     {

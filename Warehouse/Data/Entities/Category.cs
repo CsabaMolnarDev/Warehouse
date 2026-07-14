@@ -1,4 +1,6 @@
-﻿namespace Warehouse.Data.Entities
+﻿using Warehouse.Entities;
+
+namespace Warehouse.Data.Entities
 {
     public class Category
     {
